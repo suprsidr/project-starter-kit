@@ -6,6 +6,7 @@ This is a template to start your own project that uses Grunt and libsass!
 
 You'll need to have the following items installed before continuing.
 
+  * [Git](http://git-scm.com/): If you don't have the executable yet.
   * [Ruby](http://rubyinstaller.org/): Install the 1.9.x branch
   * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
   * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
@@ -18,6 +19,12 @@ Make sure you have bower and grunt-cli installed globally:
 
 ```bash
 npm install -g bower grunt-cli
+```
+
+Get the repository
+```bash
+cd /your/project
+git clone git://github.com/suprsidr/project-starter-kit.git
 ```
 
 Then install project dependencies locally:
