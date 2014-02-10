@@ -5,7 +5,6 @@ module.exports = function(grunt) {
     pngmin: {
       compile: {
         options: {
-          binary: 'bin/pngquant.exe', // specify pngquant path
           concurrency: 8,             // specify how many exucutables get spawned in parallel
           colors: 128,                // reduce colors to 128
           ext: '.png',                // use .png as extension for the optimized files default: -opt.png
