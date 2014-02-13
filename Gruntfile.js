@@ -64,6 +64,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         options: {
+          sourceMap: 'js/main.map',
           outputStyle: 'compressed'
         },
         files: {
