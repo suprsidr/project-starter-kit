@@ -39,6 +39,10 @@ While you're working on your project, run:
 
 And you're set!
 
+Grunt will watch the img-src directory and automatically optimize and copy jpg and png images to the img directory for production. Grunt will also be watching the resizes directory for new images to build the resizes specified in Gruntfile.js to the img directory.
+
+We are of course minifying js and compiling sass as well.
+
 ## Directory Strucutre
 
   * `css/scss/_settings.scss`: Foundation configuration settings go in here
