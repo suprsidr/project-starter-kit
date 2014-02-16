@@ -91,6 +91,16 @@ module.exports = function(grunt) {
         }        
       }
     },
+    
+    concat: {
+      options: {
+        separator: ';',
+      },
+      dist: {
+        src: ['js/foundation/foundation.js', 'js/foundation/foundation.accordion.js', 'js/foundation/foundation.offcanvas.js'],
+        dest: 'js/foundation.compiled.js',
+      },
+    },
 
     watch: {
       grunt: { files: ['Gruntfile.js'] },
@@ -125,8 +135,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-image-processor');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-watch');
   
-  grunt.registerTask('build', ['sass', 'uglify', 'pngmin', 'jpgmin', 'resizes']);
+  grunt.registerTask('build', ['concat', 'sass', 'uglify', 'pngmin', 'jpgmin', 'resizes']);
   grunt.registerTask('default', ['build','watch']);
 }
