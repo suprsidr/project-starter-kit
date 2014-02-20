@@ -27,6 +27,11 @@ cd /your/project
 git clone git://github.com/suprsidr/project-starter-kit.git
 ```
 
+Rename as desired
+```bash
+cd /newly renamed directory
+```
+
 Then install project dependencies locally:
 
 ```bash
