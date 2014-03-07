@@ -68,7 +68,8 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'js/main.min.js': 'js/main.js'
+          'js/main.min.js': 'js/main.js',
+          'js/foundation.min.js': 'js/foundation.concat.js'
         }
       }
     },
@@ -97,8 +98,24 @@ module.exports = function(grunt) {
         separator: ';',
       },
       dist: {
-        src: ['js/foundation/foundation.js', 'js/foundation/foundation.accordion.js', 'js/foundation/foundation.offcanvas.js'],
-        dest: 'js/foundation.compiled.js',
+        src: ['js/foundation/foundation.js',
+              //'js/foundation/foundation.abide.js',
+              //'js/foundation/foundation.accordion.js',
+              //'js/foundation/foundation.alert.js',
+              //'js/foundation/foundation.clearing.js',
+              //'js/foundation/foundation.dropdown.js',
+              //'js/foundation/foundation.equalizer.js',
+              //'js/foundation/foundation.interchange.js',
+              //'js/foundation/foundation.joyride.js',
+              //'js/foundation/foundation.magellan.js',
+              'js/foundation/foundation.offcanvas.js',
+              //'js/foundation/foundation.orbit.js',
+              //'js/foundation/foundation.reveal.js',
+              //'js/foundation/foundation.tab.js',
+              //'js/foundation/foundation.tooltip.js',
+              //'js/foundation/foundation.topbar.js'
+              ],
+        dest: 'js/foundation.concat.js',
       },
     },
 
@@ -106,7 +123,7 @@ module.exports = function(grunt) {
       grunt: { files: ['Gruntfile.js'] },
       
       uglify: {
-        files: 'js/main.js',
+        files: ['js/main.js', 'js/foundation.concat.js'],
         tasks: ['uglify']
       },
       

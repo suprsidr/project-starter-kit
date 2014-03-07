@@ -44,11 +44,11 @@ While you're working on your project, run:
 
 And you're set!
 
-Grunt will watch the img-src directory and automatically optimize and copy jpg and png images to the img directory for production. Grunt will also be watching the resizes directory for new images to build the resizes specified in Gruntfile.js to the img directory.
+Grunt will watch the img-src directory and automatically optimize and copy jpg and png images to the img directory for production. 
+Grunt will also be watching the resizes directory for new images to build the resizes specified in Gruntfile.js to the img directory.
 
 We are of course minifying js and compiling sass as well.
 
-## Directory Strucutre
+## Now includes fixed off-canvas menu example
+Make sure to check `css/scss/main.scss` and `js/main.js` for specifics.
 
-  * `css/scss/_settings.scss`: Foundation configuration settings go in here
-  * `css/scss/main.scss`: Application styles go here
