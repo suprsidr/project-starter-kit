@@ -7,6 +7,8 @@
 
 // Behold, here are all the Foundation components.
 @import
+  "foundation/components/grid",
+  "foundation/components/ie8-grid",
   "foundation/components/accordion",
   "foundation/components/alert-boxes",
   "foundation/components/block-grid",
@@ -17,26 +19,24 @@
   "foundation/components/dropdown",
   "foundation/components/dropdown-buttons",
   "foundation/components/flex-video",
-  "foundation/components/footer",
   "foundation/components/forms",
-  "foundation/components/grid",
-  "foundation/components/ie8-grid",
+  "foundation/components/icon-bar",
   "foundation/components/inline-lists",
   "foundation/components/joyride",
   "foundation/components/keystrokes",
   "foundation/components/labels",
   "foundation/components/magellan",
-  "foundation/components/media-object",
   "foundation/components/orbit",
   "foundation/components/pagination",
   "foundation/components/panels",
   "foundation/components/pricing-tables",
   "foundation/components/progress-bars",
+  "foundation/components/range-slider",
   "foundation/components/reveal",
   "foundation/components/side-nav",
   "foundation/components/split-buttons",
   "foundation/components/sub-nav",
-  "foundation/components/switch",
+  "foundation/components/switches",
   "foundation/components/tables",
   "foundation/components/tabs",
   "foundation/components/thumbs",
@@ -45,3 +45,4 @@
   "foundation/components/type",
   "foundation/components/offcanvas",
   "foundation/components/visibility";
+
