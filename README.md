@@ -54,7 +54,7 @@ Make sure to check `css/scss/main.scss` and `js/main.js` for specifics.
 
 ## Release History
 * 2014-10-11   v0.0.3   Update grunt modules, to enable live reload
-* 2014-07-15   v0.0.2   Update to foundation 5.2.2
+* 2014-07-15   v0.0.2   Update to foundation 5.3.0
 * 2014-03-07   v0.0.1   Update to foundation 5.2.0
 * 2014-02-16   v0.0.1   added concat
 * 2014-02-13   v0.0.1   added sourceMaps
