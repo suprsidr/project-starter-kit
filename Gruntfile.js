@@ -124,12 +124,18 @@ module.exports = function(grunt) {
       
       uglify: {
         files: ['js/main.js', 'js/foundation.concat.js'],
-        tasks: ['uglify']
+        tasks: ['uglify'],
+        options: {
+          livereload: true,
+        }
       },
       
       sass: {
-        files: 'css/scss/*.scss',
-        tasks: ['sass']
+        files: 'css/scss/**/*.scss',
+        tasks: ['sass'],
+        options: {
+          livereload: true,
+        }
       },
       
       pngmin: {
