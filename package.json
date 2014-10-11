@@ -1,7 +1,7 @@
 {
   "name": "horizon-project-template",
   "version": "0.0.3",
-  "repository": "https://github.com/suprsidr/project-starter-kit.git
+  "repository": "https://github.com/suprsidr/project-starter-kit.git",
   "devDependencies": {
     "node-sass": "~0.9.6",
     "grunt": "~0.4.5",
