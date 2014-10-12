@@ -151,6 +151,13 @@ module.exports = function(grunt) {
       resizes: {
         files: 'resize/**/*.{jpg,JPG,png}',
         tasks: ['resizes']
+      },
+      
+      html: {
+        files: '*.html',
+        options: {
+          livereload: true,
+        }
       }
     }
   });
